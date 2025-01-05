@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    height: 25px;
+}
+
+.container {
+    padding: 50px;
+    background-color: #232425;
+    color: #FFF;
+    width: 400px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button {
+    background-color: #00DA33;
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+
+.input-and-submit {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.temp {
+    color: #FFF;
+}
